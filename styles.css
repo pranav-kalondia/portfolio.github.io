@@ -668,4 +668,9 @@ img {
 .home_domain{
   font-size: 45px;
 }
+.work1:hover{
+  margin-left: 0px;
+    width: 100%;
+    padding-top: 16px;
+}
 }
