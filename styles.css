@@ -368,10 +368,6 @@ img {
   margin-left: 23vw;
 
 }
-.work1 :hover{
-  width: 1000px;
-  transition:1s ;
-}
 
 
 
@@ -388,7 +384,12 @@ img {
   transition: 1s;
 }
 
-.work1 :hover{}
+.work1:hover{
+  width: 900px;
+  margin-left: 21vw;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
 
 
 .experience{
