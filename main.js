@@ -56,7 +56,7 @@ sr.reveal('.home__social-icon',{ interval: 200});
 sr.reveal('.skills__data, .contact__input, #name, #message, #email ,#contact__button,.experience',{interval: 100}); 
 
 const dynamicText = document.querySelector(".home_domain span");
-const words = ["Designer", "Developer"];
+const words = ["Developer", "Designer"];
 
 // Variables to track the position and deletion status of the word
 let wordIndex = 0;
