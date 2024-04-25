@@ -348,6 +348,21 @@ img {
 }
 
 /* ===== WORK =====*/
+
+.navbarsec ul {
+  background-color: aliceblue;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  font-weight: bold;
+}
+.navbarsec ul :hover{
+  color: #4070f2;cursor: pointer;
+  
+}
 #work__container {
   row-gap: 2rem;
 }
@@ -361,7 +376,6 @@ img {
   margin-left: 20px;
   
 }
-
 
 .work1{
   margin-top:2%;
@@ -390,6 +404,122 @@ img {
 .experience{
   margin: 60px;
 }
+
+
+
+
+
+.uiux{
+  
+  display: flex;
+  overflow-x: scroll;
+  gap: 100px;
+  
+}
+.image{
+ 
+ 
+}
+
+.uiux img{
+  
+
+width: 1000px;
+
+}
+.container{
+display: flex;
+justify-content: center;
+gap: 10px;
+
+}
+.back {
+  width: 100px;
+height: 100px;
+margin-top: 180px;
+margin-left: 200px;
+
+}
+.forward {
+width: 100px;
+height: 100px;
+margin-top: 180px;
+margin-right: 220px;
+}
+.uiux::-webkit-scrollbar {
+  display:  none;   
+       }       
+
+       .uiuxW{
+  
+        display: flex;
+        overflow-x: scroll;
+        gap: 100px;
+        
+      }
+      .imageW{
+       
+       
+      }
+      
+      .uiuxW img{
+        
+      
+      width: 1000px;
+      
+      }
+      .containerW{
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      
+      }
+      .backW {
+        width: 100px;
+      height: 100px;
+      margin-top: 180px;
+      margin-left: 200px;
+      
+      }
+      .forwardW {
+      width: 100px;
+      height: 100px;
+      margin-top: 180px;
+      margin-right: 220px;
+      }
+      .uiuxW::-webkit-scrollbar {
+        display:  none;   
+             }     
+      
+      .webdevelopment{
+        display: flex;
+        justify-content: center;
+        color: #4070f2;
+        font-size: 25px;
+        padding-top: 70px;
+        padding-bottom: 30px;
+      }
+
+      .ui{
+        display: flex;
+        justify-content: center;
+        color: #4070f2;
+        font-size: 25px;
+        padding-top: 40px;
+        padding-bottom: 30px;
+      }
+      
+      
+      
+      
+
+
+
+
+
+
+
+
 
 /* ===== CONTACT =====*/
 .contact__input {
@@ -647,7 +777,7 @@ img {
 @keyframes blink {
     50% { opacity: 0 }
 }
-@media screen and (max-width: 618px) {
+@media screen and (max-width: 768px) {
   .work1{
     margin-left: 0px;
     width: 100%;
@@ -668,4 +798,108 @@ img {
     width: 100%;
     padding-top: 16px;
 }
+
+
+.uiux{
+  
+  display: flex;
+  overflow-x: scroll;
+ 
+  
+}
+
+
+.uiux img{
+  
+
+width: 100%;
+
+}
+.container{
+display: block;
+justify-content: center;
+gap: 50px;
+
+}
+.back {
+  display: none;
+  width: 50px;
+height: 50px;
+margin-top: 180px;
+
+
+}
+.forward {
+  display: none;
+width: 50px;
+height: 50px;
+margin-top: 180px;
+
+}
+.uiux::-webkit-scrollbar {
+  display:  none;   
+       }       
+
+       .uiuxW{
+  
+        display: flex;
+        overflow-x: scroll;
+        gap: 100px;
+        
+      }
+     
+      
+      .uiuxW img{
+        
+      
+        width: 100%;
+      
+      }
+      .containerW{
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      
+      }
+      .backW {
+        display: none;
+        width: 100px;
+      height: 100px;
+      margin-top: 180px;
+      
+      
+      }
+      .forwardW {
+        display: none;
+      width: 100px;
+      height: 100px;
+      margin-top: 180px;
+     
+      }
+      .uiuxW::-webkit-scrollbar {
+        display:  none;   
+             }     
+      
+      .webdevelopment{
+        display: flex;
+        justify-content: center;
+        color: #4070f2;
+        font-size:20px;
+        padding-top: 70px;
+        padding-bottom: 30px;
+      }
+
+      .ui{
+        display: flex;
+        justify-content: center;
+        color: #4070f2;
+        font-size: 20px;
+        padding-top: 40px;
+        padding-bottom: 30px;
+      }
+      
+      
+      
+      
+
 }
