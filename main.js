@@ -51,7 +51,7 @@ const sr = ScrollReveal({
 });
 
 sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text ',{}); 
-sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img, .work1, .heading',{delay: 100}); 
+sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img, #work, .heading',{delay: 100}); 
 sr.reveal('.home__social-icon',{ interval: 200}); 
 sr.reveal('.skills__data, .contact__input, #name, #message, #email ,#contact__button,.experience',{interval: 100}); 
 
@@ -87,3 +87,36 @@ const typeEffect = () => {
 }
 
 typeEffect();
+
+const left = document.querySelector(`.back`);
+const right = document.querySelector(`.forward`);
+const slider = document.querySelector(`.uiux`);
+
+slider.addEventListener(  'wheel', (evt) => {
+    evt.preventDefault();
+    slider.scrollLeft += evt.deltaY;
+});
+
+right.addEventListener(`click`, ()=>{
+   slider.scrollLeft += 1000;
+})
+left.addEventListener('click',()=>{
+    slider.scrollLeft -= 1000;
+})
+
+
+const leftW = document.querySelector(`.backW`);
+const rightW = document.querySelector(`.forwardW`);
+const sliderW = document.querySelector(`.uiuxW`);
+
+sliderW.addEventListener(  'wheel', (evt) => {
+    evt.preventDefault();
+    sliderW.scrollLeft += evt.deltaY;
+});
+
+rightW.addEventListener(`click`, ()=>{
+   sliderW.scrollLeft += 1000;
+})
+leftW.addEventListener('click',()=>{
+    sliderW.scrollLeft -= 1000;
+})
