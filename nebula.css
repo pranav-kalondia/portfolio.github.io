@@ -1,0 +1,179 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    height: 60px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand a{
+    color: black;
+    text-decoration: none;
+    
+    font-family: "Inter", sans-serif; ;
+    font-size: 16px;
+    font-weight: 600;
+    font-weight: bold;
+    color: #000;
+}
+.navbar-brand a:link { 
+    
+    text-decoration: none; 
+  } 
+  .navbar-brand a:visited { 
+    text-decoration: none; 
+  } 
+  .navbar-brand a:hover { 
+    text-decoration: none; 
+  } 
+  .navbar-brand a:active { 
+color: #000;
+    text-decoration: none; 
+  }
+
+.navbar-brand {
+    text-decoration: none;
+    padding-left: 15vw;
+    font-family: "Inter", sans-serif; ;
+    font-size: 16px;
+    font-weight: 600;
+    font-weight: bold;
+    color: #000;
+}
+
+.title{
+    font-size: 2vw;
+    font-weight: 700px;
+    font-family: "Inter", sans-serif; ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4070f2;
+    text-decoration: underline;
+    text-underline-offset: 20px;
+    text-decoration-thickness: 0.2rem;
+}
+
+.nebulaimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nebulaimg img{
+padding-top: 50px;
+    
+    width: 60vw;
+}
+
+.heading1 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #333;
+}
+.subheading1 {
+    font-size: 20px;
+    margin-top: 15px;
+    color: #555;
+}
+p {
+    margin: 10px 0;
+    color: #666;
+}
+.para{
+    padding-top: 50px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+
+
+footer {
+    margin-top: 100px;
+    background-color: #0D1730;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.footer-content {
+    height: 160px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.social-icons {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.social-icons a {
+    width: 30px;
+    color: white;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+
+.footername{
+    font-size: 32px;
+}
+
+h5{
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 768px) {
+
+    .title{
+        font-size: 5vw;
+        
+    }
+
+    .navbar-brand {
+    padding-left: 0vw;
+    font-family: "Inter", sans-serif; ;
+    font-size: 16px;
+ 
+}
+.nebulaimg img{
+    padding-top: 50px;
+        
+        width: 100vw;
+    }
+
+
+
+
+
+}
