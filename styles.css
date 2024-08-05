@@ -344,7 +344,8 @@ img {
 }
 
 .skills__img {
-  border-radius: .5rem;
+
+  border-radius: .3rem;
 }
 
 /* ===== WORK =====*/
@@ -363,6 +364,26 @@ img {
   color: #4070f2;cursor: pointer;
   
 }
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff; 
+ 
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #4070f2; 
+  border-radius: 4px;
+}
+
+/* Handle on hover */
 
 
 
