@@ -1,3 +1,4 @@
+
 document.addEventListener("DOMContentLoaded", function () {
   document.querySelectorAll(".carousel-container").forEach((carouselContainer) => {
       let carousel = carouselContainer.querySelector(".carousel");
@@ -109,7 +110,7 @@ const sr = ScrollReveal({
 sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text ',{}); 
 sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img, #work, .heading ,.casestudy',{delay: 100}); 
 sr.reveal('.home__social-icon',{ interval: 200}); 
-sr.reveal('.skills__data, .contact__input, #name, #message, #email ,#contact__button,.experience,para1',{interval: 100}); 
+sr.reveal('.skills__data, .contact__input, #name, #message, #email ,#contact__button,#Experience,para1',{interval: 100}); 
 
 const dynamicText = document.querySelector(".home_domain span");
 const words = ["Developer", "Designer"];
